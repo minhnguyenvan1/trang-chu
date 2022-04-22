@@ -1,0 +1,237 @@
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    background-color: 	#006400;
+    color: white;
+    top: 0;
+    width: 1550px;
+    position: fixed;
+    margin-right: 150px;
+    
+}
+ul{
+    display: flex;
+    list-style: none;
+    
+   
+}
+li{
+    padding: 10px;
+    margin: 10px;
+    
+    
+}
+li:hover{
+    color:white;
+    background-color: #3CB371;
+    
+}
+.muc{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 19px;
+    
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+.row{
+    display: flex;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+.container{
+    max-width: 1300px;
+    background-color: white;
+    padding: 30px;
+    margin-left: 100px;
+    
+}
+
+.col{
+    width: calc(100%/3);
+    height: 500px;
+    margin-right: 10px;
+    background-color: #ffffff;
+    box-shadow: 3px 3px 5px 0px rgb(48,48,48);
+}
+
+
+.col:last-child{
+    margin-right: 0px;
+}
+.icon-list{
+    font-size: 12px;
+}
+.col-content{
+    padding: 6px;
+    background-color: #fdfafa;
+    
+}
+
+
+div .fas{
+    color: #ffd93d;
+}
+
+.discount-price{
+    text-decoration: line-through;
+    margin-right: 5px;
+}
+.discount{
+    font-size: 13px;
+    margin: 5px 0;
+    
+}
+
+.re-price{
+    margin-top: 4px;
+    color: red;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    text-rendering: optimizeLegibility;
+    
+}
+.LU{
+    color: black;
+    font-size: 22px;
+    margin: 10px;
+    font-weight: 1000;
+  
+    
+}
+.mo{
+    color: green;
+    font-size: 35px;
+    margin: 20px;
+    font-weight: 500;
+    text-align: center;
+
+}
+hr{
+    margin-left: 556px;
+}
+img{
+    width: 100%;
+    height: 73%;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+}
+.danhmuc{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 300px;
+    margin-top: 20px;
+    
+}
+.sp{
+    color:black;
+    text-decoration: none;
+    
+}  
+a.sp:hover{
+    background-color: lightgray;
+}
+h4{  
+    margin: 5px;
+    margin-bottom: 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    text-rendering: optimizeLegibility;
+}
+.col:hover{
+    
+    width: 414px;
+}
+.sp12{
+    color: black;
+}
+.sp1{
+    color: black;
+    text-decoration: none;
+}
+.dau{
+    margin-left: 400px;
+    margin-top: 60px;
+    padding-bottom: 0;
+    
+
+    
+}
+.search{
+    margin-right: 100px;
+}
+footer.cuoi{
+    width: 1519px;
+    padding: 20px;
+    background: #006400;
+    border-bottom: 1px solid gray;
+ 
+}
+.cuoi{
+    display: flex;
+    
+}
+
+footer.cuoi .p1{
+    display: block;
+    margin-right: 20px;
+    width: 40%;
+}
+footer.cuoi .p2{
+    display: block;
+    width: 30%;
+}
+h2.end{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    color: white;
+    border-bottom: 1px solid white;
+}
+a.muccuoi{
+    color: white;
+    text-decoration: none;
+}
+
+p{
+    color: white;
+    
+}
+.cuoi.between{
+    justify-content: space-between;
+}
+ul.ok{
+    list-style: none;
+    display: block;
+    margin-right: 30px;
+    font-weight: bold;
+}
+li.cuoicung{
+    margin-bottom: 10px;
+}
+h3.end{
+    color: white;
+    font-weight: bold;
+}
+input{
+    width: 300px;
+
+}
+.logocuoi{
+    margin-top: 20px;
+    margin-left: 90px;
+}
